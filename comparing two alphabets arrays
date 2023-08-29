@@ -14,7 +14,7 @@ void comparing(char *p,char *q,int length){
     cout<<"first is greater";
 }
 int main(){
-  char Array1[]={'a','G','c','d','e','f','\0'};
+  char Array1[]={'a','b','c','d','e','f','\0'};
   char Array2[]={'a','b','c','d','e','f','\0'};
   int length=7;
   comparing(Array1,Array2,length);
